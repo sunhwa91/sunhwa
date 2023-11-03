@@ -5,7 +5,41 @@ body{
 #wrap{
     width:1200px;
     border-collapse: collapse;
-}
+    margin:20px auto;       /*margin 은 다른 부분이랑 거리 벌어짐 여백 바깥 부분
+     padding 스스로 커짐 다른 태그랑 거리가 되는건 아님 은 안쪽 명칭 */
+     }
 #wrap tr td {
     border: 1px solid #000;
+    /*border-radius: 10px; 테두리 둥글게 적용으로 100프로 하면 동그라미됨*/
 }
+
+#header{
+    border-radius: 10px;
+    height:80px;
+    width: 100%; /*부모가 가진 크기중 비율*/
+    background-color: #fff;
+    font-weight: 800; /*폰트굵기*/
+    font-size:19px; /*폰트크기*/
+}
+#slideWrap{
+    width: 600px; /*50프로로 표현해도됨*/
+    height: 700px;
+}
+
+#drinkWrap{
+    width: 600px;
+}
+.menuItem{
+    /*width:100px;*/
+    padding-left:50px; 
+}
+
+.slide{ width:100%;} /*부모태그인 #slidewrap과 너비가 같아진다*/
+.leftMove, .rightMove{
+    width:50ox;
+}
+.slideImage{
+    width:500px;
+}
+.slideImage img{width:100%;}
+
