@@ -3,22 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1102과제</title>
+    <title>과제</title>
+    <style>
+        .first td{
+            border: 3px solid red;
+        }
+        .second td{
+            border: 3px solid black;
+
+        }
+        .under1 {
+            background: orange;
+
+        }
+        .under2 {
+            background: green;
+
+        }
+        .under3{
+            background: blue;
+        }
+
+        .first{
+            height: 200px;
+        }
+        .second{
+            height:600px;
+        }
+
+        .up1{
+            width: 200px;            
+        }
+        .up2{
+            width: 600px;
+        }
+        .up3{
+            width:200px;
+                
+            }
+        table{
+            width: 1000px;
+            height: 800px;
+        }
+        
+       
+        
+
+
+
+
+
+    </style>
 </head>
+
+
 <body>
-    <table border="1" width="1000px" height="800px">
-        <tr>
-            <td>1</td>
-            <td colspan="2">2</td>
-            <td>3</td>
-            <td>4</td>
-        </tr>
-        <tr>
-            <td colspan="2">5</td>
+    <table class="big">
+        <tr class="first">
+            <td class="up1"></td>
+            <td class="up2" colspan="3"></td>
             
-            <td>7</td>
-            <td>8</td>
+            
+            <td class="up3"></td>
         </tr>
+        <tr class="second">
+            <td class="under1" colspan="2"></td>
+            
+            <td class="under2" colspan="2"></td>
+            
+            <td class="under3"></td>
+        </tr>
+
+
     </table>
+    
 </body>
 </html>
