@@ -1,0 +1,60 @@
+.house{
+    border-collapse: collapse; /*테두리간격 사라짐*/
+    font-size:17px;
+}
+.house tr th {
+    background-color: blue; /*background: 색깔; , rgb(51,49,138) 가능 */
+    border-bottom: 4px solid #ccc; /*아랫줄 선 설정*/
+    color: white; /* #fff 같음 */
+    }
+
+.dateCell{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
+.incomeCell{
+    background-color: green;
+    color: black;
+    text-align:center;
+}
+.expenseCell{
+    background-color: red;
+    color:white;
+    text-align: center;
+    width: 150px;
+}
+.paymentCell{
+    color:black;
+    text-align: center;
+}
+.detail{
+    width: 250px;
+}
+.date{
+    width: 80px;
+    text-align: center;
+}
+.income{
+    width:150px;
+    text-align:center;
+}
+.expense{ width:150px;
+}
+.payment{
+    width: 100px;   
+    text-align:center;
+}
+.detailCell:hover{
+    background-color: gray;
+}
+
+.detail, .expense /*내역 지출 양쪽 선 적용*/{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc; /*가운데 선 적용*/
+}
+
+.house tr td {
+    border-bottom: 20px solid #ddd;
+    height: 30px;
+}
