@@ -57,4 +57,9 @@
 .house tr td {
     border-bottom: 20px solid #ddd;
     height: 30px;
+    text-align: center;
+}
+
+.dateCell, .incomeCell, .expenseCell, .paymentCell {
+    text-align: center;
 }
